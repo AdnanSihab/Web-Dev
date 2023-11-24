@@ -1,0 +1,69 @@
+body {
+  font-family: "Noto Serif", serif;
+  margin: 0;
+}
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 33px;
+}
+.name-color {
+  color: mediumturquoise;
+}
+.flexible-container {
+  display: flex;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  height: 50%;
+}
+.link-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 0px 110px 0px 0px;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 0px 110px 0px 0px;
+}
+.experience-item {
+  box-shadow: 10px 10px 40px gray;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#pro-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon tomato);
+  border-image-slice: 1;
+}
+#baby-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}

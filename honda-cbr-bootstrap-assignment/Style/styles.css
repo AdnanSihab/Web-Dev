@@ -1,0 +1,19 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255 255 255);
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.btn-color {
+  background-color: #e76f51;
+}
+.gray-scale {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+.fa-star.filled {
+  color: #e77c40;
+}
+.text-color {
+  color: #e76f51;
+}
