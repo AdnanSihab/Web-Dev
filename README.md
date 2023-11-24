@@ -1,1 +1,1 @@
-All my fun web dev will be stored here
+All my practice web dev codes will be stored here.
